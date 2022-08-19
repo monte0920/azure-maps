@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.leaflet-popup-close-button {
+    display: none !important
+}
+
+.leaflet-popup-content {
+    margin: -2px !important;
+}
+
+.leaflet-popup-content img {
+    border-radius: 14px 14px 0px 0px;
+}
+
+.leaflet-popup-content {
+    font-family: 'Roboto';
+}
+
+.contents {
+    padding: 12px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.contents p {
+    margin: 0px;
+    font-weight: 500 !important;
+}
+
+.contents h2 {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+
+.leaflet-container {
+    height: 100%;
+    width: 100%
+}

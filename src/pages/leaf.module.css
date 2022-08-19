@@ -1,0 +1,87 @@
+.map {
+  /* position:relative; */
+  top: 0;
+  bottom: 0;
+  /*width: 100vw;*/
+  height: 100%;
+}
+
+.map>div {
+  height: 100%;
+}
+
+.loc {
+  margin-top: -7%;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  border-width: thin;
+  border-color: white;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.spots {
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  border-width: thin;
+  border-color: white;
+  border: 1px solid;
+  padding: 2px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  margin-top: -3%;
+  margin-right: 10%;
+  position: absolute;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 79vh;
+  }
+
+  .overlay {
+    margin-top: -7%;
+    margin-right: 10%;
+    position: absolute;
+    background-color: yellow;
+  }
+
+  .loc {
+    margin-top: -7%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    border-width: thin;
+    border-color: white;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 1px 1px 1px #888888;
+  }
+
+  .spots {
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    border-width: thin;
+    border-color: white;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 1px 1px 1px #888888;
+  }
+}
